@@ -75,13 +75,14 @@ p > a.autor:hover {
 }
 
 a {
-    color: black;
+    color: var(--cor0);
     text-decoration: none;
     font-weight: bolder;
 }
 
 a:hover {
     text-decoration: underline;
+    color: var(--cor4);
 }
 
 section {
@@ -153,6 +154,14 @@ footer {
     padding: 60px 30px 30px 30px;
     font-size: 1.01em;
     
+}
+
+footer > p {
+    color: var(--cor0);
+}
+
+footer > p > a {
+    color: var(--cor4);
 }
 
 footer a:hover {
